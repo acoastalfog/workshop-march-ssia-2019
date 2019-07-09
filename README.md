@@ -31,8 +31,8 @@ MARCH SSIA Workshop 2019
     * ```` docker pull aisinai/march-ssia-2019:v0.0.1 ````
   * Clone this repository containing the source code and data for today's short course
     * ```` git clone https://github.com/acoastalfog/MARCH-SSIA-2019.git ````
-    * ```` cd MARCH-SSIA-2019.git ````
+    * ```` cd MARCH-SSIA-2019 ````
   * Launch the container and mount the repository as our work folder
-    * ```` docker run -it --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work aisinai/march-ssia-2019:v0.0.1 ````
+    * ```` docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work aisinai/march-ssia-2019:v0.0.1 ````
   * Open a web browser and navigate to log into your jupyter notebook
     * http://localhost:10000
